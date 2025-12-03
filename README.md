@@ -1,4 +1,4 @@
-### Summary of how the program should run
+# Summary of how the program should run
 The website we’re scraping is https://ss64.com. The final output will be a .txt file that contains commands, definitions and a link to the dedicated page for each command. If you're downloading a page of Mac commands, for example, you will get a list of ~299 terms.
 
 Here is a step by step summary of how the program should run:
