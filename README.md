@@ -1,7 +1,7 @@
-# About
+# About the Program
 The website we’re scraping is https://ss64.com. The final output will be a .txt file that contains commands, definitions and a link to the dedicated page for each command. If you're downloading a page of Mac commands, for example, you will get a list of ~299 terms.
 
-# Summary
+# The Program, Step by Step
 Here is a step by step summary of how the program should run:
 1. The program begins by asking the user for the operating system path. Expected responses: mac, bash (for Linux), nt (for Windows), etc.
 2. The program determines the page to scrape based on the user’s input from the previous question. This page lists most of the available commands by operating system in an A-Z index.
