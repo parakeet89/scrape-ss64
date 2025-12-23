@@ -3,7 +3,7 @@ The website we’re scraping is https://ss64.com. The final output will be a .tx
 
 # How It Works
 Here is a step by step summary of how the program should run:
-1. First, visit https://ss64.com and choose the operating system that you'd like to get a list of commands and definitions for. Take note of the relative path after ss64.com/.
+1. First, visit https://ss64.com and choose the operating system that you'd like to get a list of commands and definitions for. Take note of the relative path after https://ss64.com/.
 2. The program begins by asking the user for the operating system path. Expected responses: mac (for MacOS), bash (for Linux), nt (for Windows), etc. Note: Not all relative paths that come after https://ss64.com/ will work. The scope of this project was limited to major operating systems such as the ones aforementioned.
 3. The program determines the page to scrape based on the user’s input from the previous question. This page lists most of the available commands by operating system in an A-Z index.
 4. From this page, the program collects terms, definitions and a specific URL for the dedicated page. The program creates a dictionary and stores a definition and URL as a list of values for each term.
